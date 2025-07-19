@@ -1,9 +1,11 @@
 /* This is your custom storybook stylesheet. */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-@import "../../deps/salad_ui/priv/static/assets/salad_ui.css";
+@import "tailwindcss";
+@import "./tailwind.colors.css";
+@import "./liveview-variants.css";
+@import "../../../priv/static/assets/salad_ui.css";
 @import "./color.css";
+
+@config "../tailwind.config.js";
 
 /*
  * Put your component styling within the Tailwind utilities layer.

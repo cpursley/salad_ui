@@ -1,0 +1,33 @@
+<!--
+  This file contains all the CSS classes used by SaladUI components
+  to ensure they are included in the Tailwind v4 build output.
+  This file is referenced in tailwind.config.js content array.
+-->
+
+<!-- Button Component Classes -->
+<div class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:ring-ring focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50">
+  
+  <!-- Button Variants -->
+  <div class="bg-primary text-primary-foreground shadow hover:bg-primary/90"></div>
+  <div class="bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90"></div>
+  <div class="border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground"></div>
+  <div class="bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80"></div>
+  <div class="hover:bg-accent hover:text-accent-foreground"></div>
+  <div class="text-primary underline-offset-4 hover:underline"></div>
+  
+  <!-- Button Sizes -->
+  <div class="h-9 px-4 py-2"></div>
+  <div class="h-8 rounded-md px-3 text-xs"></div>
+  <div class="h-10 rounded-md px-8"></div>
+  <div class="h-9 w-9"></div>
+</div>
+
+<!-- Common Component Classes -->
+<div class="flex flex-col space-y-2 bg-card text-card-foreground p-6 rounded-lg border"></div>
+<div class="bg-muted text-muted-foreground p-4"></div>
+<div class="bg-popover text-popover-foreground border border-border rounded-md shadow-md"></div>
+<div class="ring-2 ring-ring ring-offset-2"></div>
+<div class="bg-sidebar text-sidebar-foreground border-sidebar-border"></div>
+
+<!-- Loading states for Phoenix LiveView -->
+<div class="phx-submit-loading:opacity-75 phx-click-loading:animate-spin phx-change-loading:opacity-50"></div>

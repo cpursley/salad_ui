@@ -1,10 +1,9 @@
 import Config
 
 config :tailwind,
-  version: "3.4.17",
+  version: "4.1.11",
   default: [
     args: ~w(
-      --config=tailwind.config.js
       --input=css/app.css
       --output=../priv/static/assets/app.css
     ),
@@ -12,7 +11,6 @@ config :tailwind,
   ],
   storybook: [
     args: ~w(
-          --config=tailwind.config.js
           --input=css/storybook.css
           --output=../priv/static/assets/storybook.css
         ),
