@@ -1,3 +1,20 @@
+# 0.15.0
+
+**Major Changes**
+- **BREAKING**: Upgrade Tailwind CSS from v3.4.17 to v4.1.11
+- Migrate to CSS-first configuration approach using @import and @config directives
+- Update build system to use @tailwindcss/cli v4.1.11
+- Convert color configuration from JSON to CSS @theme format
+- Implement LiveView variants using CSS @variant for Phoenix integration
+- Update @tailwindcss/forms and @tailwindcss/typography plugins for v4 compatibility
+- Maintain full backward compatibility for all component styling
+
+**Migration Notes**
+- All existing component classes remain functional
+- Color system preserved with CSS variable approach
+- Phoenix LiveView integration maintained with custom variants
+- Build process updated for improved performance
+
 # 0.14.0
 
 **Changes**

@@ -1,5 +1,8 @@
+const formsPlugin = require("@tailwindcss/forms");
+const typographyPlugin = require("@tailwindcss/typography");
+
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./js/**/*.js",
     "../lib/salad_storybook_web.ex",
@@ -10,4 +13,8 @@ export default {
     "../deps/salad_ui/lib/**/*.ex",
   ],
   important: ".salad-storybook-web",
+  plugins: [
+    formsPlugin,
+    typographyPlugin,
+  ],
 };
